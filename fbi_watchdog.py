@@ -110,7 +110,13 @@ ascii_banner = r"""
 console.print(Padding(f"[bold blue]{ascii_banner}[/bold blue]", (0, 0, 0, 4)))
 
 # Domain list to monitor for seizure banners and DNS changes
-domains = ["example.com", "example1.com", "example2.com"]
+domains = ["mysellix.io", "dump.li", "rootsploit.org", "enclave.cc", "evil-zone.org", "ezcarder.is",
+           "stresserus.com", "lkxstress.su", "cloudnode.me", "starkrdp.io", "onniforums.com", "stresse.ru",
+           "inverse.sh", "turkhackteam.org", "veryleaks.cz", "bbgate.com", "breachforums.st", "darkforums.st",
+           "dangerzone.cx", "leak.sx", "nulled.to", "archetyp.cc", "bidencash.bid", "briansclub.to",
+           "cracked.io", "darkwebinformer.com", "drughub.link", "drughub.su", "exploit.in", "hackforums.net",
+           "leakbase.io", "maxstresser.com", "nulledbb.com", "oguser.com", "patched.to", "ramp4u.io",
+           "rescator.cn", "rondastore.org", "stresser.su", "stresslab.su", "trzm.cc", "xss.is"]
 
 # DNS records that will be checked for changes
 dnsRecords = ["A", "AAAA", "CNAME", "MX", "NS", "SOA", "TXT"]
